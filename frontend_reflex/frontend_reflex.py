@@ -14,17 +14,18 @@ from frontend_reflex.components.navbar import navbar
 
 
 def index() -> rx.Component:
-    return rx.box(
-        navbar(),
-        rx.center(
-            rx.vstack(
-                header(),
-                body(),
-                max_width=Size.MAX_WIDTH.value,
-            ),
-        ),
-        footer(),
-    )
+    return rx.heading("Hola papa mira mi primera web en internet jeje")
+    # return rx.box(
+    #     navbar(),
+    #     rx.center(
+    #         rx.vstack(
+    #             header(),
+    #             body(),
+    #             max_width=Size.MAX_WIDTH.value,
+    #         ),
+    #     ),
+    #     footer(),
+    # )
 
 
 app = rx.App(
