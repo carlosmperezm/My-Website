@@ -15,7 +15,7 @@ from frontend_reflex.components.navbar import navbar
 
 def index() -> rx.Component:
     return rx.box(
-        rx.heading("Hola papa esta es mi primera web ejeje")
+        rx.heading("Hola papa esta es mi primera web en internet ejeje"),
         # navbar(),
         # rx.center(
         #     rx.vstack(
