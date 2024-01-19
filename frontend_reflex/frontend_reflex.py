@@ -14,18 +14,18 @@ from frontend_reflex.components.navbar import navbar
 
 
 def index() -> rx.Component:
-    return rx.heading("Hola papa mira mi primera web en internet jeje")
-    # return rx.box(
-    #     navbar(),
-    #     rx.center(
-    #         rx.vstack(
-    #             header(),
-    #             body(),
-    #             max_width=Size.MAX_WIDTH.value,
-    #         ),
-    #     ),
-    #     footer(),
-    # )
+    return rx.box(
+        # rx.heading("Hola papa esta es mi primera web ejeje")
+        navbar(),
+        rx.center(
+            rx.vstack(
+                header(),
+                body(),
+                max_width=Size.MAX_WIDTH.value,
+            ),
+        ),
+        footer(),
+    )
 
 
 app = rx.App(
@@ -42,12 +42,12 @@ app.add_page(
     title=title,
     description=description,
     image="avatar.jpg",
-    # meta=[
-    #     {"name": "og:type", "content": "website"},
-    #     {"name": "og:title", "content": title},
-    #     {"name": "og:description", "content": description},
-    #     {"name": "og:image", "content": preview},
-    #     {"name": "twitter:card", "content": "summary_large_image"},
-    #     {"name": "twitter:site", "content": "@mouredev"},
-    # ],
+    meta=[
+        {"name": "og:type", "content": "website"},
+        {"name": "og:title", "content": title},
+        {"name": "og:description", "content": description},
+        {"name": "og:image", "content": preview},
+        {"name": "twitter:card", "content": "summary_large_image"},
+        {"name": "twitter:site", "content": "@mouredev"},
+    ],
 )
