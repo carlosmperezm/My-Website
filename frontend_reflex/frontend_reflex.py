@@ -29,8 +29,8 @@ def index() -> rx.Component:
 
 
 app = rx.App(
-    style=BASE_STYLES,
-    stylesheets=STYLESHEETS,
+    # style=BASE_STYLES,
+    # stylesheets=STYLESHEETS,
 )
 
 title = "MoureDev | Te enseño programación y desarrollo de software"
