@@ -15,22 +15,21 @@ from frontend_reflex.components.navbar import navbar
 
 def index() -> rx.Component:
     return rx.box(
-        rx.heading("Hola papa esta es mi primera web en internet ejeje"),
-        # navbar(),
-        # rx.center(
-        #     rx.vstack(
-        #         header(),
-        #         body(),
-        #         max_width=Size.MAX_WIDTH.value,
-        #     ),
-        # ),
-        # footer(),
+        navbar(),
+        rx.center(
+            rx.vstack(
+                header(),
+                body(),
+                max_width=Size.MAX_WIDTH.value,
+            ),
+        ),
+        footer(),
     )
 
 
 app = rx.App(
-    # style=BASE_STYLES,
-    # stylesheets=STYLESHEETS,
+    style=BASE_STYLES,
+    stylesheets=STYLESHEETS,
 )
 
 title = "MoureDev | Te enseño programación y desarrollo de software"
