@@ -39,7 +39,7 @@ def header() -> rx.Component:
         rx.flex(
             info_text("2+", "years of experience"),
             rx.spacer(),
-            info_text("2+", "apps created"),
+            info_text("3+", "apps created"),
             width="100%",
             color=TextColor.HEADER.value,
         ),

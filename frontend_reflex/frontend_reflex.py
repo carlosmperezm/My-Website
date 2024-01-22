@@ -32,20 +32,20 @@ app = rx.App(
     stylesheets=STYLESHEETS,
 )
 
-title = "Carlos Perez | Software engineer. Know about me "
-description = "Hi i am Carlos and i am a junior software engineer seeking for a job"
-preview = "https://carlosperezm/preview.jpg"
+TITLE = "Carlos Perez | Software engineer. Know about me "
+DESCRIPTION = "Hi i am Carlos and i am a junior software engineer seeking for a job"
+PREVIEW = "https://carlosperezm/preview.jpg"
 
 app.add_page(
     index,
-    title=title,
-    description=description,
+    title=TITLE,
+    description=DESCRIPTION,
     image="avatar.jpg",
     meta=[
         {"name": "og:type", "content": "website"},
-        {"name": "og:title", "content": title},
-        {"name": "og:description", "content": description},
-        {"name": "og:image", "content": preview},
+        {"name": "og:title", "content": TITLE},
+        {"name": "og:description", "content": DESCRIPTION},
+        {"name": "og:image", "content": PREVIEW},
         {"name": "twitter:card", "content": "summary_large_image"},
         {"name": "twitter:site", "content": "@chartypes"},
     ],
