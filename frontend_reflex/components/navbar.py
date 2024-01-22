@@ -8,8 +8,8 @@ def navbar() -> rx.Component:
     return rx.hstack(
         rx.heading(
             rx.box(
-                rx.span("Moure", color=Color.PRIMARY.value),
-                rx.span("dev", color=Color.SECONDARY.value),
+                rx.span("Carlos ", color=Color.PRIMARY.value),
+                rx.span("Perez", color=Color.SECONDARY.value),
             ),
             size="lg",
         ),

@@ -32,9 +32,9 @@ app = rx.App(
     stylesheets=STYLESHEETS,
 )
 
-title = "MoureDev | Te enseño programación y desarrollo de software"
-description = "Hola, mi nombre es Brais Moure. Soy ingeniero de software, desarrollador freelance full-stack y divulgador."
-preview = "https://moure.dev/preview.jpg"
+title = "Carlos Perez | Software engineer. Know about me "
+description = "Hi i am Carlos and i am a junior software engineer seeking for a job"
+preview = "https://carlosperezm/preview.jpg"
 
 app.add_page(
     index,
@@ -47,6 +47,6 @@ app.add_page(
         {"name": "og:description", "content": description},
         {"name": "og:image", "content": preview},
         {"name": "twitter:card", "content": "summary_large_image"},
-        {"name": "twitter:site", "content": "@mouredev"},
+        {"name": "twitter:site", "content": "@chartypes"},
     ],
 )
