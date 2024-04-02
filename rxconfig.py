@@ -1,5 +1,5 @@
 import reflex as rx
 
 config = rx.Config(
-    app_name="frontend_reflex",
+    app_name="portfolio_web",
 )
