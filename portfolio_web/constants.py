@@ -2,7 +2,7 @@ class Data:
     GITHUB = "https://github.com/chartypes"
     MAIL = "carlosmperez2901@icloud.com"
     LINKEDIN = "https://linkedin.com/in/carlos-perez-martinez"
-    CV = "/Carlos-Perez.pdf"
+    CV = "/resume.pdf"
 
     NAME = "Carlos Perez"
     ROLE = "Backend Developer"
