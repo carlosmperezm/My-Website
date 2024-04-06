@@ -34,7 +34,7 @@ alongside my team."""
             "https://developer.mozilla.org/en-US/docs/Web/CSS",
             "devicon-css3-plain",
         ],
-        "Boostrap": [" https://getbootstrap.com/", "devicon-bootstrap-plain"],
+        "Bootstrap": [" https://getbootstrap.com/", "devicon-bootstrap-plain"],
         "HTML": ["https://html.com", "devicon-html5-plain"],
         "github": ["https://github.com/", "devicon-github-original"],
         "Django": ["https://www.djangoproject.com", "devicon-django-plain"],
