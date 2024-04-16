@@ -186,4 +186,20 @@ alongside my team."""
             ],
             "links": ["https://github.com/chartypes/StackOverflow_Scraper"],
         },
+        {
+                'title':'Building a Django CRUD Application: Exploring Databases, ORM, HTML, CSS, and More',
+            "descryption": [
+                ''' This project involved creating a CRUD (Create, Read, Update, Delete)
+                    application using the Django framework. The application covered key aspects such as database interactions,
+                    working with Django's ORM for managing models and queries, implementing dynamic views using HTML and CSS, 
+                    and incorporating static files to enhance the application's appearance and functionality. 
+                    This project provided a comprehensive experience in web development with Django, encompassing data manipulation 
+                    and visual presentation of the user interface. ''',
+                    ],
+            "tecnologies": ['devicon-django-plain',
+                            'devicon-html5-plain',
+                            'devicon-css3-plain',
+                            'devicon-python-plain'],
+            "links": ["https://github.com/chartypes/personal_manager"],
+         },
     ]
