@@ -7,7 +7,7 @@ from portfolio_web.styles.styles import Rx_Size, Size
 
 
 def info(
-    title, descryption, links=[], tecnologies=[], image="", time="", certification=""
+    title, descryption=[], links=[], tecnologies=[], image="", time="", certification=""
 ) -> rx.Component:
     return rx.flex(
         rx.box(

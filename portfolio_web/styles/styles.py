@@ -25,8 +25,8 @@ STYLESHEETS = ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.
 
 BASE_STYLE = {
     rx.button: {"--cursor-button": "pointer"},
-    rx.heading: {
-        # "color": "rgba(181,246,237)",
+    rx.link: {
+        "color": "white",
         # ':'0'-shadow": "0 0 2px rgba(158, 208, 234, 1)",
     },
 }

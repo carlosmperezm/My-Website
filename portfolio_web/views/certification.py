@@ -24,5 +24,4 @@ def certification():
             for certification in Data.CERTIFICATIONS
         ],
         width="100%",
-        # margin_bottom=Size.S,
     )

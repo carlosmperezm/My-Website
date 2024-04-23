@@ -14,8 +14,8 @@ from portfolio_web.views.experience import experience
 
 def index() -> rx.Component:
     return rx.center(
+        # rx.theme_panel(),
         rx.vstack(
-            # rx.theme_panel(),
             header(),
             about_me(),
             rx.divider(),
@@ -26,10 +26,12 @@ def index() -> rx.Component:
             study(),
             rx.divider(),
             footer(),
-            padding=Size.M,
+            padding_x=Size.XL,
+            padding_y=Size.S,
             spacing=Rx_Size.XL,
+            max_width="900px",
+            width="100%",
         ),
-        padding=Size.M,
     )
 
 
