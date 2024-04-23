@@ -18,7 +18,7 @@ def link_button(
                 align="center",
             ),
             size=btn_size,
-            href=url,
             is_external=True,
         ),
+        href=url,
     )
