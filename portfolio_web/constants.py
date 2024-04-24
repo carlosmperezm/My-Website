@@ -61,7 +61,7 @@ class Data:
                 Skilled in problem-solving and software development, ready to excel in the field.""",
             ],
             "tecnologies": ["github", "github", "github", "github"],
-            "image": "studies/UCI.jpg",
+            "image": "studies/UCI2.png",
         },
         {
             "title": "Cerritos College - Norwalk, California",
