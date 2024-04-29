@@ -156,4 +156,19 @@ class Data:
             ],
             "links": ["https://github.com/chartypes/personal_manager"],
         },
+        {
+            "title": "Online Banking System",
+            "descryption": [
+                ''' This Django-based online banking system offers secure user authentication, 
+                account lockout after three failed attempts, and essential banking features including balance viewing and fund transactions. ''',
+            ],
+            "tecnologies": [
+                "devicon-python-plain",
+                "devicon-django-plain",
+                "devicon-html5-plain",
+                "devicon-css3-plain",
+                "devicon-bootstrap-plain",
+            ],
+            "links": ["https://github.com/chartypes/online_banking_system"],
+        },
     ]
