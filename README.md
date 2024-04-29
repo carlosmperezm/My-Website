@@ -15,8 +15,9 @@ This repository contains my portfolio website, showcasing my projects, certifica
 1. Clone this repository to your local machine.
 2. Install Reflex if you haven't already:
 3. Navigate to the project directory:
-4. Start the Reflex server:
-5. Access the portfolio website at http://127.0.0.1:8000/
+4. Excecute the comand [sh built.sh]
+5. Start the Reflex server:
+6. Access the portfolio website at http://127.0.0.1:8000/
 
 ## Usage
 1. Explore the different sections of the website, including projects, certifications, studies, and work experience.
