@@ -17,7 +17,7 @@ def study():
                     info(
                         study["title"],
                         study["descryption"],
-                        tecnologies=study["tecnologies"],
+                        technologies=study["technologies"],
                         image=study["image"],
                         time=study["time"],
                     )

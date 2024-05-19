@@ -14,7 +14,7 @@ class Data:
     tools. Versatile as back-end developer, data scientist, and scripting and
     automation to successfully produce consistent and outstanding products,
     alongside my team."""
-    TECNOLOGIES = {
+    TECHNOLOGIES = {
         "Python": ["https://www.python.org/", "devicon-python-plain"],
         "Pandas": ["https://pandas.pydata.org/", "devicon-pandas-plain"],
         "Reflex": ["https://reflex.dev/", "devicon-devicon-plain"],
@@ -43,7 +43,7 @@ class Data:
                 "Executed maintenance on exciting software and websites.",
                 "I designed and created websites for the university of Cienfuegos University using, but not limited to, Javascript, HTML, CSS, Nodejs, and ExpressJS.",
             ],
-            "tecnologies": [
+            "technologies": [
                 "github",
                 "github",
                 "github",
@@ -60,7 +60,7 @@ class Data:
                 """UCI graduate with expertise in Java, C++, and essential programming concepts. 
                 Skilled in problem-solving and software development, ready to excel in the field.""",
             ],
-            "tecnologies": ["github", "github", "github", "github"],
+            "technologies": ["github", "github", "github", "github"],
             "image": "studies/UCI2.png",
         },
         {
@@ -70,7 +70,7 @@ class Data:
                 """English & Computer Science student, Low Advanced English certificate. 
                 Focused on programming, data structures, and collaborative projects.""",
             ],
-            "tecnologies": ["github", "github", "github", "github"],
+            "technologies": ["github", "github", "github", "github"],
             "image": "studies/cerritos.jpg",
         },
     ]
@@ -123,7 +123,7 @@ class Data:
                 """Python script uses Pandas, OS, and Datetime to process Excel patient data, 
                 streamlining analysis for Alzheimer's prevention research.""",
             ],
-            "tecnologies": [
+            "technologies": [
                 "devicon-python-plain",
                 "devicon-pandas-plain",
                 "devicon-git-plain",
@@ -136,7 +136,7 @@ class Data:
                 """ Efficiently search and retrieve top questions and answers using BeautifulSoup. 
                 Simplifies HTML parsing for quick exploration of StackOverflow's knowledge base.""",
             ],
-            "tecnologies": [
+            "technologies": [
                 "devicon-git-plain",
                 "devicon-python-plain",
             ],
@@ -148,7 +148,7 @@ class Data:
                 """ Django project for CRUD application, featuring database interactions, 
                 ORM, dynamic views with HTML/CSS, and hands-on Django web development experience.""",
             ],
-            "tecnologies": [
+            "technologies": [
                 "devicon-django-plain",
                 "devicon-html5-plain",
                 "devicon-css3-plain",
@@ -162,7 +162,7 @@ class Data:
                 ''' This Django-based online banking system offers secure user authentication, 
                 account lockout after three failed attempts, and essential banking features including balance viewing and fund transactions. ''',
             ],
-            "tecnologies": [
+            "technologies": [
                 "devicon-python-plain",
                 "devicon-django-plain",
                 "devicon-html5-plain",
@@ -171,4 +171,16 @@ class Data:
             ],
             "links": ["https://github.com/chartypes/online_banking_system"],
         },
+        {
+            "title": "Currency Converter",
+            "descryption": [''' A currency converter program working with fees, routers, templates and more with Django '''],
+            "technologies": [
+                "devicon-python-plain",
+                "devicon-django-plain",
+                "devicon-html5-plain",
+                "devicon-css3-plain",
+                "devicon-bootstrap-plain",
+            ],
+            "links": ["https://github.com/chartypes/currency-converter"]
+                },
     ]

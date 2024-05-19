@@ -16,7 +16,7 @@ def certification():
                 info(
                     certification["title"],
                     certification["descryption"],
-                    # tecnologies=certification["tecnologies"],
+                    # technologies=certification["technologies"],
                     image=certification["image"],
                     certification=certification["certification"],
                 )

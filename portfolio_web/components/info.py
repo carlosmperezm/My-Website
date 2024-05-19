@@ -7,7 +7,7 @@ from portfolio_web.styles.styles import Rx_Size, Size
 
 
 def info(
-    title, descryption=[], links=[], tecnologies=[], image="", time="", certification=""
+    title, descryption=[], links=[], technologies=[], image="", time="", certification=""
 ) -> rx.Component:
     return rx.flex(
         rx.box(
@@ -32,7 +32,7 @@ def info(
             ),
             *[rx.list_item(descrypt, color_scheme="gray") for descrypt in descryption],
             rx.hstack(
-                *[rx.box(class_name=tecnology) for tecnology in tecnologies],
+                *[rx.box(class_name=tecnology) for tecnology in technologies],
                 font_size=Size.M,
                 margin_top=Size.XS,
             ),

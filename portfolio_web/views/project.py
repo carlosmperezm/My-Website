@@ -19,9 +19,7 @@ def project() -> rx.Component:
                     project["title"],
                     project["descryption"],
                     project["links"],
-                    project["tecnologies"],
-                    # image=project["image"],
-                    # time=project["time"],
+                    project["technologies"],
                 )
             )
             for project in Data.PROJECTS

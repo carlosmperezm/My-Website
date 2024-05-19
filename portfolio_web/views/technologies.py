@@ -18,12 +18,12 @@ def technologies() -> rx.Component:
             rx.chakra.responsive_grid(
                 *[
                     rx.box(
-                        link_button(data[1], data[0], tecnology, Rx_Size.M),
+                        link_button(data[1], data[0], technology, Rx_Size.M),
                         margin=Size.XS,
                         width="100%",
                         align="center",
                     )
-                    for tecnology, data in Data.TECNOLOGIES.items()
+                    for technology, data in Data.TECHNOLOGIES.items()
                 ],
                 columns=[2, 3, 4, 5, 6, 7],
                 align="center",

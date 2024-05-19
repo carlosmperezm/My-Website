@@ -15,7 +15,7 @@ def experience() -> rx.Component:
                 info(
                     title=experience["rol"],
                     descryption=experience["descryption"],
-                    tecnologies=experience["tecnologies"],
+                    technologies=experience["technologies"],
                     time=experience["time"],
                     image="UCF Logo.png",
                 )
