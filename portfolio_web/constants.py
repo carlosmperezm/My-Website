@@ -1,5 +1,5 @@
 class Data:
-    GITHUB = "https://github.com/chartypes"
+    GITHUB = "https://github.com/carlosmperezm"
     MAIL = "carlosmperez2901@icloud.com"
     LINKEDIN = "www.linkedin.com/in/carlos-backdev"
     CV = "/resume.pdf"
