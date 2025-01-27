@@ -33,10 +33,14 @@ li {
     list-style: none;
 }
 
+
 /* General */
 h3 {
     font-size: 1.5rem;
+    color: var(--primary-color2);
 }
+
+
 
 /* Navbar */
 nav {
@@ -124,17 +128,45 @@ p {
     margin: 2em auto;
 }
 
+
 /* Technologies  */
 #technologies-section {
-    margin: 1em;
+    background-color: var(--secondary-color2);
+    padding: 1rem;
+}
+
+.technologiesList-container {
+    display: flex;
 }
 
 .technologies-container {
+    margin: 1rem;
+    padding: 1em;
+    width: fit-content;
+}
+
+.technologies-container h5 {
+    font-size: 1.3em;
+}
+
+.technologies-container ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1em;
     padding: 2em;
+}
+
+#technologies-section .technologies-container:nth-of-type(1) {
+    background-color: var(--primary-color1);
+}
+
+#technologies-section .technologies-container:nth-of-type(2) {
+    background-color: var(--primary-color2);
+}
+
+#technologies-section .technologies-container:nth-of-type(3) {
+    background-color: var(--primary-color3);
 }
 
 .technologies-container img {
