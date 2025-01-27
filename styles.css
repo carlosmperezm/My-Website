@@ -83,8 +83,8 @@ nav .links li {
 
 /* Header */
 header {
-    background-color: var(--header-color);
-    padding: 1rem;
+    background-color: var(--primary-color4);
+    padding: 2rem;
 }
 
 .img-container {
@@ -97,7 +97,13 @@ header {
     border-radius: 50%;
 }
 
-header .greeting {
+.info * {
+    margin-top: 1em;
+}
+
+
+/* About Me */
+.greeting {
     width: 60%;
     margin: 2em auto;
 }
