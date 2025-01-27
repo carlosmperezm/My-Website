@@ -33,6 +33,10 @@ li {
     list-style: none;
 }
 
+/* General */
+h3 {
+    font-size: 1.5rem;
+}
 
 /* Navbar */
 nav {
@@ -50,7 +54,7 @@ nav {
 }
 
 
-nav h1 {
+nav h2 {
     display: none;
 
 }
@@ -67,7 +71,7 @@ nav .links li {
         top: 0;
     }
 
-    nav h1 {
+    nav h2 {
         display: inline;
     }
 
@@ -75,7 +79,7 @@ nav .links li {
         justify-content: space-between;
     }
 
-    nav h1 {
+    nav h2 {
         margin-left: 1em;
     }
 }
@@ -85,6 +89,10 @@ nav .links li {
 header {
     background-color: var(--primary-color4);
     padding: 2rem;
+}
+
+p {
+    font-size: 1.2em;
 }
 
 .img-container {
@@ -103,6 +111,14 @@ header {
 
 
 /* About Me */
+#aboutMe-section {
+    background-color: var(--secondary-color1);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .greeting {
     width: 60%;
     margin: 2em auto;
