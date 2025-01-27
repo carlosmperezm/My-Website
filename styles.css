@@ -1,9 +1,11 @@
 :root {
-    --title-color: Black;
-    --text-color: Gray;
-    --link-color: Blue;
-    --navbar-color: Gray;
-    --header-color: #beef
+    --primary-color1: #4d9aff;
+    --primary-color2: #57aae1;
+    --primary-color3: #95cfeb;
+    --primary-color4: #a5d8ff;
+
+    --secondary-color1: #fff8e7;
+    --secondary-color2: #eef8ff;
 }
 
 /* Resets */
@@ -42,6 +44,7 @@ nav {
     position: fixed;
     bottom: 0;
     background-color: #ddd9;
+    /*Check later if this color will change to add it as a variable*/
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
@@ -58,8 +61,13 @@ nav .links li {
 }
 
 
-@media only screen and (min-width:700px) {
-    nav .links {
+@media only screen and (min-width:800px) {
+    nav {
+        position: sticky;
+        top: 0;
+    }
+
+    nav h1 {
         display: inline;
     }
 
