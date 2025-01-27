@@ -15,7 +15,6 @@
 }
 
 body {
-
     text-align: center;
 }
 
@@ -32,21 +31,23 @@ li {
     list-style: none;
 }
 
+
 /* Navbar */
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 3rem;
-    position: sticky;
-    top: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
     background-color: #ddd9;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
 
-nav .links {
+nav h1 {
     display: none;
 
 }
