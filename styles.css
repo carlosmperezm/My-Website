@@ -36,6 +36,10 @@ li {
 
 
 /* General */
+html {
+    scroll-behavior: smooth;
+}
+
 h3 {
     font-size: 1.5rem;
     color: var(--primary-color2);
@@ -135,10 +139,6 @@ p {
 .img-display,
 .info {
     padding: 2rem;
-}
-
-.img-display,
-.info {
     width: 100%;
 }
 
