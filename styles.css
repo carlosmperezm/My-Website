@@ -292,3 +292,27 @@ header .img-container {
     transform: scale(1);
 
 }
+
+
+/* Experience */
+
+#experience-section {
+    background-color: var(--secondary-color2);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#experience-section h3 {
+    margin-bottom: 1rem;
+}
+
+#experience-section p {
+    font-size: 1em;
+}
+
+.experience-header {
+    font-weight: bold;
+}
