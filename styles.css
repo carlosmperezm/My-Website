@@ -58,6 +58,12 @@ body {
     margin-bottom: var(--navbar-height)
 }
 
+@media only screen and (min-width:800px) {
+    body {
+        margin-bottom: 0;
+    }
+}
+
 
 
 /* Navbar */
@@ -266,7 +272,6 @@ header .img-container {
 
 .project-container {
     position: relative;
-    background-color: Pink;
 }
 
 .img-container {
