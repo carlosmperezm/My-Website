@@ -6,6 +6,7 @@
 
     --secondary-color1: #fff8e7;
     --secondary-color2: #eef8ff;
+    --navbar-height: 3rem;
 }
 
 /* Resets */
@@ -53,6 +54,10 @@ section {
     padding: 2rem;
 }
 
+body {
+    margin-bottom: var(--navbar-height)
+}
+
 
 
 /* Navbar */
@@ -60,7 +65,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 3rem;
+    height: var(--navbar-height);
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -315,4 +320,24 @@ header .img-container {
 
 .experience-header {
     font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--primary-color2);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .copyright {
+    font-size: 0.8em;
+}
+
+
+.contact-links {
+    margin: 3rem 0;
 }
