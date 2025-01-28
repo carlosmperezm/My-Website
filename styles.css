@@ -40,6 +40,16 @@ h3 {
     color: var(--primary-color2);
 }
 
+.contact-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.contact-links li {
+    width: 50px;
+}
+
+
 
 
 /* Navbar */
@@ -92,11 +102,24 @@ nav .links li {
 /* Header */
 header {
     background-color: var(--primary-color4);
-    padding: 2rem;
 }
 
 p {
     font-size: 1.2em;
+}
+
+.img-display {
+    background-color: var(--primary-color4);
+}
+
+.img-display,
+.info {
+    padding: 2rem;
+}
+
+.img-display,
+.info {
+    width: 100%;
 }
 
 .img-container {
@@ -113,6 +136,41 @@ p {
     margin-top: 1em;
 }
 
+.contact-links {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width:800px) {
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 100vh;
+        gap: 2rem;
+    }
+
+    .img-display {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-display .img-container {
+        width: 400px;
+        height: 400px;
+    }
+
+    .info {
+        background-color: var(--secondary-color2);
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
 
 /* About Me */
 #aboutMe-section {
