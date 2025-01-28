@@ -209,11 +209,14 @@ header .img-container {
 
 .technologiesList-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .technologies-container {
     margin: 1rem;
     padding: 1em;
+
 }
 
 .technologies-container h5 {
