@@ -102,6 +102,8 @@ nav .links li {
 /* Header */
 header {
     background-color: var(--primary-color4);
+    height: 100vh;
+
 }
 
 p {
@@ -191,6 +193,10 @@ p {
 #technologies-section {
     background-color: var(--secondary-color2);
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .technologiesList-container {
@@ -200,7 +206,6 @@ p {
 .technologies-container {
     margin: 1rem;
     padding: 1em;
-    width: fit-content;
 }
 
 .technologies-container h5 {
