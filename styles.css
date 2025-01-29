@@ -227,10 +227,24 @@ nav .links li {
 .technologies-container {
     margin: 1rem;
     padding: 1em;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
 
 }
 
-.technologies-container h5 {
+@media only screen and (max-width:300px) {
+    .technologies-container {
+        width: auto;
+        min-width: 100px;
+        height: auto;
+        min-height: 250px;
+    }
+}
+
+
+.technologies-container h4 {
     font-size: 1.3em;
 }
 
@@ -238,8 +252,10 @@ nav .links li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 1em;
     padding: 2em;
+    height: 100%;
 }
 
 #technologies-section .technologies-container:nth-of-type(1) {
