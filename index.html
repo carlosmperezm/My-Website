@@ -11,26 +11,27 @@
 </head>
 
 <body>
-    <nav role="navigation">
-        <h2>Carlos Perez Martinez</h1>
-            <ul class="links">
-                <li><a href="#aboutMe-section">About Me</a></li>
-                <li><a href="#technologies-section">Skills</a></li>
-                <li><a href="#projects-section">Projects</a></li>
-                <li><a href="#experience-section">Experience</a></li>
-            </ul>
+    <nav role="navigation" tabindex="-1">
+        <h1 aria-hidden="true">Carlos Perez Martinez</h1>
+        <ul class="links">
+            <li><a href="#aboutMe-section">About Me</a></li>
+            <li><a href="#technologies-section">Skills</a></li>
+            <li><a href="#projects-section">Projects</a></li>
+            <li><a href="#experience-section">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 
-    <main role="main">
+    <main role="main" tabindex="-1">
         <div id="presentation">
-            <div class="img-display">
+            <div aria-hidden="true" class="img-display">
                 <div class="img-container"><img id="profile-img" src="assets/profile.svg"></div>
             </div>
 
             <div class="info">
                 <div class="title">
-                    <h1>Carlos Perez Martinez</h1>
-                    <p>Web Developer</p>
+                    <h2>Carlos Perez Martinez</h1>
+                        <p>Web Developer</p>
                 </div>
                 <ul class="contact-links">
                     <li>
@@ -41,13 +42,13 @@
 
                     <li>
                         <a aria-label="Carlos email" href="mailto:carlosperezmartinez2901@gmail.com" target="_blank">
-                            <img src="assets/icons/mail.svg" alt="Mail icon">
+                            <img src="assets/icons/mail.svg" alt="Mail">
                         </a>
                     </li>
                     <li>
                         <a aria-label="Carlos Linkedin profile" href="https://linkedin.com/in/carlos-backdev"
                             target="_blank">
-                            <img src="assets/icons/linkedin.svg" />
+                            <img src="assets/icons/linkedin.svg" alt="Linkedin" />
                         </a>
                     </li>
                 </ul>
@@ -70,15 +71,15 @@
                     <h5>Front end</h5>
                     <ul>
                         <li>
-                            <img alt="HTML icon"
+                            <img alt="HTML"
                                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
                         </li>
                         <li>
-                            <img alt="CSS icon"
+                            <img alt="CSS"
                                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
                         </li>
                         <li>
-                            <img alt="JavaScript icon"
+                            <img alt="JavaScript"
                                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
                         </li>
                     </ul>
@@ -86,26 +87,26 @@
                 <div class="technologies-container">
                     <h5>Back end</h5>
                     <ul>
-                        <li><img alt="Python icon"
+                        <li><img alt="Python"
                                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
                         </li>
                         <li>
-                            <img alt="Django icon"
+                            <img alt="Django"
                                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />
                         </li>
                         <li>
 
-                            <img alt="Django Rest Framework icon"
+                            <img alt="Django Rest Framework"
                                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/djangorest/djangorest-original.svg" />
 
                         </li>
                         <li>
-                            <img alt="SQL icon"
+                            <img alt="SQL"
                                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
                         </li>
 
                         <li>
-                            <img alt="PostgreSQL icon"
+                            <img alt="PostgreSQL"
                                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
                         </li>
 
@@ -115,20 +116,20 @@
                     <h5>Others</h5>
                     <ul>
                         <li>
-                            <img alt="Docker icon"
+                            <img alt="Docker"
                                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
                         </li>
 
                         <li>
-                            <img alt="Redis icon"
+                            <img alt="Redis"
                                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" />
                         </li>
                         <li>
-                            <img alt="Git icon"
+                            <img alt="Git"
                                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
                         </li>
                         <li>
-                            <img alt="Github icon"
+                            <img alt="Github"
                                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
                         </li>
                     </ul>
@@ -146,11 +147,11 @@
                     <div class="project-links">
                         <a href="https://carlosmperezm.github.io/landing-page/" aria-label="Project webpage"
                             class="live-link" target="_blank">
-                            <img src="assets/icons/external-link.svg" alt="preview icon" />
+                            <img src="assets/icons/external-link.svg" alt="preview" />
                         </a>
                         <a href="https://github.com/carlosmperezm/landing-page" aria-label="Github repository"
                             class="github-link" target="_blank">
-                            <img src="assets/icons/github.svg" alt="GitHub icon">
+                            <img src="assets/icons/github.svg" alt="GitHub">
                         </a>
                     </div>
                 </div>
@@ -162,11 +163,11 @@
                     <div class="project-links">
                         <a href="https://carlosmperezm.github.io/calculator/" aria-label="Project webpage"
                             class="live-link" target="_blank">
-                            <img src="assets/icons/external-link.svg" alt="preview icon" />
+                            <img src="assets/icons/external-link.svg" alt="preview" />
                         </a>
                         <a href="https://github.com/carlosmperezm/calculator" aria-label="Github repository"
                             class="github-link" target="_blank">
-                            <img src="assets/icons/github.svg" alt="GitHub icon">
+                            <img src="assets/icons/github.svg" alt="GitHub">
                         </a>
                     </div>
                 </div>
@@ -178,12 +179,12 @@
                     <div class="project-links">
                         <a href="https://carlosmperezm.github.io/etch-a-sketch/" aria-label="Project webpage"
                             class="live-link" target="_blank">
-                            <img src="assets/icons/external-link.svg" alt="preview icon" />
+                            <img src="assets/icons/external-link.svg" alt="preview" />
                         </a>
                         </a>
                         <a href="https://github.com/carlosmperezm/etch-a-sketch" aria-label="Github repository"
                             class="github-link" target="_blank">
-                            <img src="assets/icons/github.svg" alt="GitHub icon">
+                            <img src="assets/icons/github.svg" alt="GitHub">
                         </a>
                     </div>
                 </div>
@@ -195,7 +196,7 @@
                     <div class="project-links">
                         <a href="https://github.com/carlosmperezm/ecomerce-app" aria-label="Github repository"
                             class="github-link" target="_blank">
-                            <img src="assets/icons/github.svg" alt="GitHub icon">
+                            <img src="assets/icons/github.svg" alt="GitHub">
                         </a>
                     </div>
                 </div>
@@ -206,7 +207,7 @@
                     <div class="project-links">
                         <a href="https://github.com/carlosmperezm/online_banking_system" aria-label="Github repository"
                             class="github-link" target="_blank">
-                            <img src="assets/icons/github.svg" alt="GitHub icon">
+                            <img src="assets/icons/github.svg" alt="GitHub">
                         </a>
                     </div>
                 </div>
@@ -217,7 +218,7 @@
                     <div class="project-links">
                         <a href="https://github.com/carlosmperezm/patient_data_processing_script"
                             aria-label="Github repository" class="github-link" target="_blank">
-                            <img src="assets/icons/github.svg" alt="GitHub icon">
+                            <img src="assets/icons/github.svg" alt="GitHub">
                         </a>
                     </div>
                 </div>
@@ -229,7 +230,7 @@
                     <div class="project-links">
                         <a href="https://github.com/carlosmperezm/task-tracker-cli" aria-label="Github repository"
                             class="github-link" target="_blank">
-                            <img src="assets/icons/github.svg" alt="GitHub icon">
+                            <img src="assets/icons/github.svg" alt="GitHub">
                         </a>
                     </div>
                 </div>
@@ -240,7 +241,7 @@
                     <div class="project-links">
                         <a href="https://github.com/carlosmperezm/currency-converter" aria-label="Github repository"
                             class="github-link" target="_blank">
-                            <img src="assets/icons/github.svg" alt="GitHub icon">
+                            <img src="assets/icons/github.svg" alt="GitHub">
                         </a>
                     </div>
                 </div>
@@ -267,7 +268,7 @@
         </section>
     </main>
 
-    <footer role="contentinfo">
+    <footer role="contentinfo" id="contact" tabindex="-1">
         <p>Now, you already now a bit about me.</p>
         <p>What about you? Is something interesting to share?</p>
         <p>Hit me up!</p>
@@ -280,12 +281,12 @@
             </li>
             <li>
                 <a aria-label="Carlos Linkedin profile" href="https://linkedin.com/in/carlos-backdev" target="_blank">
-                    <img src="assets/icons/linkedin.svg" />
+                    <img src="assets/icons/linkedin.svg" alt="Linkedin" />
                 </a>
             </li>
             <li>
                 <a aria-label="Carlos email" href="mailto:carlosperezmartinez2901@gmail.com" target="_blank">
-                    <img src="assets/icons/mail.svg" alt="Mail icon">
+                    <img src="assets/icons/mail.svg" alt="Mail">
                 </a>
             </li>
         </ul>

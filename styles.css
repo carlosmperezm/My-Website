@@ -95,7 +95,7 @@ nav {
 }
 
 
-nav h2 {
+nav h1 {
     display: none;
 
 }
@@ -110,19 +110,14 @@ nav .links li {
     nav {
         position: sticky;
         top: 0;
-    }
-
-    nav h2 {
-        display: inline;
-    }
-
-    nav {
         justify-content: space-between;
     }
 
-    nav h2 {
+    nav h1 {
+        display: inline;
         margin-left: 1em;
     }
+
 }
 
 
