@@ -7,6 +7,7 @@
     --secondary-color1: #fff8e7;
     --secondary-color2: #eef8ff;
     --navbar-height: 3rem;
+    --border-radius: 15px;
 }
 
 /* Resets */
@@ -14,11 +15,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    line-height: 1.5;
 }
 
 body {
     text-align: center;
+}
+
+p {
+    line-height: 1.5;
+
 }
 
 a {
@@ -301,12 +306,22 @@ nav .links li {
     justify-content: space-evenly;
     background-color: var(--primary-color1);
     padding: 1rem;
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
 }
 
 .img-container {
     margin: 0;
     max-width: 300px;
     max-height: 200px;
+    line-height: 0;
+    /* Fix extra space between the images*/
+}
+
+.project-container .img-container img {
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+
 }
 
 
@@ -344,6 +359,12 @@ nav .links li {
 
     .project-container:hover .project-links {
         transform: scale(1);
+
+    }
+
+    .project-container img {
+        border-bottom-left-radius: var(--border-radius);
+        border-bottom-right-radius: var(--border-radius);
 
     }
 
