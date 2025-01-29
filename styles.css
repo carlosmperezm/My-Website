@@ -58,8 +58,13 @@ section {
     padding: 2rem;
 }
 
+p {
+    font-size: 1.2em;
+}
+
 body {
-    margin-bottom: var(--navbar-height)
+    margin-bottom: var(--navbar-height);
+    min-width: 200px;
 }
 
 @media only screen and (min-width:800px) {
@@ -121,16 +126,16 @@ nav .links li {
 }
 
 
-/* Header */
-header {
+/* presentation-section */
+#presentation {
     background-color: var(--primary-color4);
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
-p {
-    font-size: 1.2em;
-}
 
 .img-display {
     background-color: var(--primary-color4);
@@ -142,15 +147,13 @@ p {
     width: 100%;
 }
 
-header .img-container {
-    width: 400px;
-    height: 400px;
-    margin: 1rem auto;
+#presentation .img-container {
+    margin: 1rem 0;
+    justify-self: center;
+    transform: translateX(12px);
+    /* Remove it when the photo get centered */
 }
 
-#profile-img {
-    border-radius: 50%;
-}
 
 .info * {
     margin-top: 1em;
@@ -162,7 +165,7 @@ header .img-container {
 }
 
 @media only screen and (min-width:800px) {
-    header {
+    #presentation {
         display: flex;
         flex-direction: row-reverse;
         height: 100vh;
@@ -177,8 +180,8 @@ header .img-container {
     }
 
     .img-display .img-container {
-        width: 400px;
-        height: 400px;
+        min-width: 400px;
+        min-height: 400px;
     }
 
     .info {
@@ -194,8 +197,9 @@ header .img-container {
 
 /* About Me */
 #aboutMe-section {
+    padding: 1rem 0;
     background-color: var(--secondary-color1);
-    height: 300px;
+    min-height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -275,6 +279,7 @@ header .img-container {
 
 .project-container {
     position: relative;
+    flex-shrink: 1;
 }
 
 .project-links {
@@ -286,8 +291,8 @@ header .img-container {
 
 .img-container {
     margin: 0;
-    width: 300px;
-    height: 200px;
+    max-width: 300px;
+    max-height: 200px;
 }
 
 
@@ -346,7 +351,7 @@ header .img-container {
     margin-bottom: 1rem;
 }
 
-.experience-header {
+.experience-#presentation-section {
     font-style: italic;
     font-size: 1.6em;
     margin-bottom: 0.5em;
