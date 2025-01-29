@@ -345,6 +345,7 @@ nav .links li {
         background-color: #00000016;
         -webkit-backdrop-filter: brightness(60%) blur(2px);
         backdrop-filter: brightness(60%) blur(2px);
+        border-radius: var(--border-radius);
 
     }
 
