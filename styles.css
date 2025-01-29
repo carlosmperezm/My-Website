@@ -134,6 +134,8 @@ nav .links li {
 
 .img-display {
     background-color: var(--primary-color4);
+    display: flex;
+    justify-content: center;
 }
 
 .img-display,
@@ -145,6 +147,7 @@ nav .links li {
 #presentation .img-container {
     margin: 1rem 0;
     justify-self: center;
+    max-height: 400px;
     transform: translateX(12px);
     /* Remove it when the photo get centered */
 }
