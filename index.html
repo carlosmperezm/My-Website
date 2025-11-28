@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<!-- TODO: Move the about me section to the presentation part -->
+<!-- TODO: Add recent projects to the projects section (maximum 3 projects, the best ones) -->
+<!-- TODO: Change the headers levels and sizes -->
+<!-- TODO: Change navbar style, it's ugly as fuck!! -->
+<!-- FIXME: Project's links container increases its size more than project when resizing the screen, and no longer match the size of the project's screenshots  -->
+<!-- FIXME: Project's images aren't kept in the middle in narrow screen -->
 <html lang="en">
 
 <head>
@@ -7,7 +13,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="stylesheet" href="styles.css">
-    <!-- Link preview on social medias -->
+
+    <!-- Headers to get a Link preview on social medias -->
     <meta property="og:title" content="Carlos Perez Martinez" />
     <meta name="description" property="og:description" content="Hey👋 my name is
     Carlos. Here I show you all the projects I have building currently,
@@ -270,8 +277,14 @@
                 </a>
             </li>
         </ul>
-        <p class="copyright">© 2025 Carlos Perez Martinez</p>
+        <p class="copyright">©
+            <span id="year"></span>
+            Carlos Perez Martinez
+        </p>
     </footer>
+    <script>
+        document.querySelector("#year").textContent = new Date().getFullYear()
+    </script>
 </body>
 
 </html>
