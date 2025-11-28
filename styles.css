@@ -290,16 +290,29 @@ nav .links li {
 
 .projects-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
-    justify-content: center;
-    align-content: center;
+    flex-direction: column;
+    gap: 4rem;
     margin-top: 3rem;
 }
 
-.project-container {
-    position: relative;
-    flex-shrink: 1;
+.project-details p {
+    margin-bottom: 1rem;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.separator {
+    margin: 2rem;
+}
+
+
+.project-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: unset;
 }
 
 .project-links {
@@ -313,16 +326,14 @@ nav .links li {
 
 .img-container {
     margin: 0;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 500px;
+    max-height: 500px;
     line-height: 0;
-    /* Fix extra space between the images*/
 }
 
 .project-container .img-container img {
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
-
 }
 
 
@@ -333,6 +344,21 @@ nav .links li {
 
 
 @media only screen and (min-width:800px) {
+    .project-details.right {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .project-details.left {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .project-description {
+        max-width: 500px;
+        align-content: center;
+    }
+
     .project-links {
         display: flex;
         justify-content: space-evenly;
@@ -363,6 +389,7 @@ nav .links li {
     .project-container img {
         border-bottom-left-radius: var(--border-radius);
         border-bottom-right-radius: var(--border-radius);
+        position: relative;
 
     }
 
