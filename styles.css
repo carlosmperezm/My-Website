@@ -154,11 +154,6 @@ nav .links li {
     transform: translate(12px, 30px);
 }
 
-
-.info * {
-    margin-top: 1em;
-}
-
 .contact-links {
     display: flex;
     justify-content: center;
