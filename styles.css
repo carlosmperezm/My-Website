@@ -136,7 +136,6 @@ nav .links li {
 
 }
 
-
 .img-display {
     background-color: var(--primary-color4);
     display: flex;
@@ -145,16 +144,14 @@ nav .links li {
 
 .img-display,
 .info {
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
 }
 
 #presentation .img-container {
-    margin: 1rem 0;
     justify-self: center;
     max-height: 400px;
-    transform: translateX(12px);
-    /* Remove it when the photo get centered */
+    transform: translate(12px, 30px);
 }
 
 
@@ -199,15 +196,6 @@ nav .links li {
 }
 
 /* About Me */
-#aboutMe-section {
-    padding: 1rem 0;
-    background-color: var(--secondary-color1);
-    min-height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .greeting {
     width: 60%;
     margin: 2em auto;

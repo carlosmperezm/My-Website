@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- TODO: Move the about me section to the presentation part -->
 <!-- TODO: Add recent projects to the projects section (maximum 3 projects, the best ones) -->
 <!-- TODO: Change the headers levels and sizes -->
 <!-- TODO: Change navbar style, it's ugly as fuck!! -->
@@ -41,14 +40,19 @@
     <main role="main">
         <div id="presentation">
             <div aria-hidden="true" class="img-display">
-                <div class="img-container"><img id="profile-img" src="assets/profile.svg"></div>
+                <div class="img-container">
+                    <img id="profile-img" src="assets/profile.svg" />
+                </div>
             </div>
 
             <div class="info">
-                <div class="title">
-                    <h2>Carlos Perez Martinez</h1>
-                        <p>Web Developer</p>
-                </div>
+                <section id="aboutMe-section" tabindex="-1">
+                    <h1>Carlos Perez Martinez</h1>
+                    <p class="greeting">
+                        Hey 👋, my name is Carlos and I'm web developer. Would you like to see what I've working on
+                        recently?
+                    </p>
+                </section>
                 <ul class="contact-links">
                     <li>
                         <a aria-label="Carlos Github profile" href="https://github.com/carlosmperezm" target="_blank">
@@ -71,13 +75,6 @@
             </div>
         </div>
 
-        <section id="aboutMe-section" tabindex="-1">
-            <div class="greeting-container">
-                <h3>About Me</h3>
-                <p class="greeting">Hey 👋, my name is Carlos and I'm web developer. Would you
-                    like to see what I've working on recently?</p>
-            </div>
-        </section>
 
         <section id="technologies-section" tabindex="-1">
             <h3>Technologies</h3>
