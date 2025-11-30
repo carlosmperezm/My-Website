@@ -45,7 +45,7 @@ html {
     scroll-behavior: smooth;
 }
 
-h3 {
+h2 {
     font-size: 1.5rem;
     color: var(--primary-color2);
 }
@@ -293,7 +293,6 @@ nav .links li {
 
 
 .project-title {
-    font-size: 2rem;
     margin-bottom: 2rem;
     color: unset;
 }
