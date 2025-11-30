@@ -326,6 +326,10 @@ nav .links li {
 
 
 @media only screen and (min-width:800px) {
+    .project-details {
+        gap: 3rem;
+    }
+
     .project-details.right {
         flex-direction: row;
         justify-content: space-around;
