@@ -311,6 +311,7 @@ nav .links li {
     max-width: 800px;
     max-height: 500px;
     line-height: 0;
+    position: relative;
 }
 
 .project-container .img-container img {
