@@ -129,7 +129,7 @@ nav .links li {
 /* presentation-section */
 #presentation {
     background-color: var(--primary-color4);
-    height: 100vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,6 +158,30 @@ nav .links li {
     display: flex;
     justify-content: center;
 }
+
+.arrow {
+    height: 60px;
+    width: min-content;
+    margin-top: 2rem;
+    animation: 1s infinite alternate bounce;
+}
+
+.arrow:hover {
+    animation: none;
+    transform: scale(1.5)translateY(1rem);
+    cursor: pointer;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(2rem);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
 
 @media only screen and (min-width:800px) {
     #presentation {
