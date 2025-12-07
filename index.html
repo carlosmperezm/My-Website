@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<!-- TODO: Change navbar style, it's ugly as fuck!! -->
-<!-- TODO: Add font style -->
 <html lang="en">
 
 <head>
     <title>Carlos Perez Martinez</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Icons  -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
     <!-- Headers to get a Link preview on social medias -->
     <meta property="og:title" content="Carlos Perez Martinez" />
@@ -23,287 +24,217 @@
 </head>
 
 <body>
-    <nav role="navigation" tabindex="-1">
-        <ul class="links">
-            <li><a href="#technologies-section">Technologies</a></li>
-            <li><a href="#projects-section">Projects</a></li>
-            <li><a href="#experience-section">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <main role="main">
-        <div id="presentation">
-            <div aria-hidden="true" class="img-display">
-                <div class="img-container">
-                    <img id="profile-img" src="assets/profile.svg" />
-                </div>
-            </div>
-
-            <div class="info">
-                <section id="aboutMe-section" tabindex="-1">
-                    <h1>Carlos Perez Martinez</h1>
-                    <p class="greeting">
-                        Hi👋 I'm a Full Stack Web Developer,
-                        majoring in Computer Science and building useful Full Stack Web Applications to make my life
-                        easier and help other along the way.
-                    </p>
-                    <p>Check out technologies I have worked with!</p>
-                    <a href="#technologies-section">
-                        <img class="arrow" src="./assets/icons/move-down.svg"></im>
+    <header>
+        <div class="about-me">
+            <figure>
+                <!-- <picture> -->
+                <!-- <source srcset="./assets/images/portrait-small.webp" media="(width <= 600px)"> -->
+                <!-- <source srcset="./assets/images/portrait-medium.webp" media="(width <= 1200px)"> -->
+                <!-- <source srcset="./assets/images/portrait.webp" media="(width > 1200px)"> -->
+                <img src="./assets/profile.svg" alt="">
+                <!-- </picture> -->
+                <figcaption>Carlos Perez</figcaption>
+            </figure>
+            <div class="text-container">
+                <h3 class="section-title">About me</h3>
+                <p>Computer Science student with strong programming fundamentals. I like to learn new things, which led
+                    me to study
+                    Web Development on my own, build Full-Stack Web Applications in my free time, and now keep my skills
+                    sharpened by learning high-demand web technologies and contributing to open-source software that I
+                    am
+                    interested in. Looking forward to working in a welcomed work environment that fosters growth and
+                    learning.</p>
+                <div class="links-container">
+                    <a href="https://github.com/carlosmperezm">
+                        <i class="devicon-github-original"></i>
                     </a>
-
-                </section>
-                <ul class="contact-links">
-                    <li>
-                        <a aria-label="Carlos Github profile" href="https://github.com/carlosmperezm" target="_blank">
-                            <img alt="github" src="assets/icons/github(black).svg" />
-                        </a>
-                    </li>
-
-                    <li>
-                        <a aria-label="Carlos email" href="mailto:carlosperezmartinez2901@gmail.com" target="_blank">
-                            <img src="assets/icons/mail.svg" alt="Mail">
-                        </a>
-                    </li>
-                    <li>
-                        <a aria-label="Carlos Linkedin profile" href="https://linkedin.com/in/carlos-backdev"
-                            target="_blank">
-                            <img src="assets/icons/linkedin.svg" alt="Linkedin" />
-                        </a>
-                    </li>
-                </ul>
+                    <a href="www.linkedin.com/in/cperezma">
+                        <i class="devicon-linkedin-plain"></i>
+                    </a>
+                </div>
             </div>
         </div>
+    </header>
 
+    <main>
+        <h3>My work</h3>
+        <div class="projects-container">
 
-        <section id="technologies-section" tabindex="-1">
-            <h2>Technologies</h2>
-
-            <div class="technologiesList-container">
-                <div class="technologies-container">
-                    <h3>Front end</h3>
-                    <ul>
-                        <li>
-                            <img alt="HTML"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-                        </li>
-                        <li>
-                            <img alt="CSS"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-                        </li>
-                        <li>
-                            <img alt="JavaScript"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-                        </li>
-                        <li>
-                            <img alt="React"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-                        </li>
-                        <li>
-
-                            <img alt="React Router"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original-wordmark.svg" />
-                        </li>
-                    </ul>
+            <div class="project">
+                <div class="img-container">
+                    <img src="./assets/projects/shopping-cart.png" alt="">
                 </div>
-                <div class="technologies-container">
-                    <h3>Back end</h3>
-                    <ul>
-                        <li>
-                            <img alt="NodeJS"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
+                <div class="description-container">
+                    <div class="title-container">
+                        <h4>🛒 Shopping Cart</h4>
+                        <div class="links-container">
+                            <a href="https://github.com/carlosmperezm/shopping-cart">
+                                <i class="devicon-github-original"></i>
+                            </a>
+                            <a href="https://shopping-cart-two-gold.vercel.app/">
 
-                        </li>
-                        <li>
-                            <img alt="ExpressJS"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
-
-                        </li>
-                        <li>
-                            <img alt="SQL"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
-                        </li>
-                        <li>
-                            <img alt="PostgreSQL"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
-                        </li>
-                        <li>
-                            <img alt="Python"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-                        </li>
-                        <li>
-                            <img alt="Django"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />
-                        </li>
-                        <li>
-
-                            <img alt="Django Rest Framework"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/djangorest/djangorest-original.svg" />
-                        </li>
-                    </ul>
-                </div>
-                <div class="technologies-container">
-                    <h3>Others</h3>
-                    <ul>
-                        <li>
-                            <img alt="Docker"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
-                        </li>
-
-                        <li>
-                            <img alt="Redis"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" />
-                        </li>
-                        <li>
-                            <img alt="Git"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
-                        </li>
-                        <li>
-                            <img alt="Github"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
-                        </li>
-                    </ul>
+                                <i class="material-symbols-outlined">
+                                    link
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                    <p> A React project were I put in practice lots of React's concepts like:
+                        Client Routing using React Router, Testing React apps, Styling React apps, Components life
+                        cycle, Fetching data in React, Deploying React apps, etc.</p>
                 </div>
             </div>
-        </section>
-
-        <section id="projects-section">
-            <h2> Featured Projects</h2>
-            <div class="projects-container">
-                <div class="project-container">
-                    <h3 class="project-title">🛒 Shopping Cart</h3>
-                    <div class="project-details left">
-                        <p class="project-description">
-                            A React project were I put in practice lots of React's concepts like:
-
-                            Client Routing using React Router, Testing React apps, Styling React apps, Components life
-                            cycle, Fetching data in React, Deploying React apps, etc.
-
-                        </p>
-                        <div class="img-container">
-                            <img src="assets/projects/shopping-cart.png" alt="Calculator
-                    screnshot">
-                            <div class="project-links">
-                                <a href="https://shopping-cart-two-gold.vercel.app/" aria-label="Project webpage"
-                                    class="live-link" target="_blank">
-                                    <img src="assets/icons/external-link.svg" alt="preview" />
-                                </a>
-                                <a href="https://github.com/carlosmperezm/shopping-cart" aria-label="Github repository"
-                                    class="github-link" target="_blank">
-                                    <img src="assets/icons/github.svg" alt="GitHub">
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <hr class="separator">
+            <div class="project">
+                <div class="img-container">
+                    <img src="./assets/projects/memory-card.png" alt="">
                 </div>
-
-                <div class="project-container">
-                    <h3 class="project-title"> 🚢 Battleship Game</h3>
-                    <div class="project-details right">
-                        <p class="project-description">
-                            A Battleship web game to put in practice Test Driven Development (TDD).
-                            Built in vanilla JavaScript, HTML and CSS to sharpen my web fundamentals.
-                            Feel free to check it out and let me know your thoughts 😄!
-                        </p>
-                        <div class="img-container">
-                            <img src="assets/projects/battleship.png" alt="Battleship Page screenshot">
-                            <div class="project-links">
-                                <a href="https://carlosmperezm.github.io/battleship/" aria-label="Project webpage"
-                                    class="live-link" target="_blank">
-                                    <img src="assets/icons/external-link.svg" alt="preview" />
-                                </a>
-                                <a href="https://github.com/carlosmperezm/battleship" aria-label="Github repository"
-                                    class="github-link" target="_blank">
-                                    <img src="assets/icons/github.svg" alt="GitHub">
-                                </a>
-                            </div>
+                <div class="description-container">
+                    <div class="title-container">
+                        <h4>🧠 Memory Card Game</h4>
+                        <div class="links-container">
+                            <a href="https://github.com/carlosmperezm/memory-card">
+                                <i class="devicon-github-original"></i>
+                            </a>
+                            <a href="https://memory-card-henna-alpha.vercel.app/">
+                                <i class="material-symbols-outlined">
+                                    link
+                                </i>
+                            </a>
                         </div>
-
                     </div>
-                    <hr class="separator">
-                </div>
-
-                <div class="project-container">
-                    <h3 class="project-title">🧠 Memory Card Game</h3>
-                    <div class="project-details left">
-                        <p class="project-description">
-                            A Memory Card Game that fetches images from an external API, which makes me improve
-                            my knowledge in a few React concepts like: states, side effects,
-                            components and life cycle of reactive effects.
-                            Make sure to check it out. I'd love to hear some feedback!
-
-                        </p>
-                        <div class="img-container">
-                            <img src="assets/projects/memory-card.png" alt="etch-a-sketch screenshot">
-                            <div class="project-links">
-                                <a href="https://memory-card-henna-alpha.vercel.app/" aria-label="Project webpage"
-                                    class="live-link" target="_blank">
-                                    <img src="assets/icons/external-link.svg" alt="preview" />
-                                </a>
-                                </a>
-                                <a href="https://github.com/carlosmperezm/memory-card" aria-label="Github repository"
-                                    class="github-link" target="_blank">
-                                    <img src="assets/icons/github.svg" alt="GitHub">
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
+                    <p> A Memory Card Game that fetches images from an external API, which makes me improve
+                        my knowledge in a few React concepts like: states, side effects,
+                        components and life cycle of reactive effects.
+                    </p>
                 </div>
             </div>
-        </section>
+            <div class="project">
+                <div class="img-container">
+                    <img src="./assets/projects/battleship.png" alt="">
+                </div>
+                <div class="description-container">
+                    <div class="title-container">
+                        <h4> 🚢 Battleship Game</h4>
+                        <div class="links-container">
+                            <a href="https://github.com/carlosmperezm/battleship">
+                                <i class="devicon-github-original"></i>
+                            </a>
+                            <a href="https://carlosmperezm.github.io/battleship/">
+                                <i class="material-symbols-outlined">
+                                    link
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>A Battleship web game to put in practice Test Driven Development (TDD).
+                        Built in vanilla JavaScript, HTML and CSS to sharpen my web fundamentals.
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="img-container">
+                    <img src="./assets/projects/cv-app.png" alt="">
+                </div>
+                <div class="description-container">
+                    <div class="title-container">
+                        <h4>CV App</h4>
+                        <div class="links-container">
+                            <a href="https://github.com/carlosmperezm/cv-application">
+                                <i class="devicon-github-original"></i>
+                            </a>
+                            <a href="https://cv-application-five-teal.vercel.app/">
+                                <i class="material-symbols-outlined">
+                                    link
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>Application built with React to practices concepts like states and props.</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="img-container">
+                    <img src="./assets/projects/weather-app.png" alt="">
+                </div>
+                <div class="description-container">
+                    <div class="title-container">
+                        <h4>⛈️ Weather App</h4>
+                        <div class="links-container">
+                            <a href="https://github.com/carlosmperezm/weather-app">
+                                <i class="devicon-github-original"></i>
+                            </a>
+                            <a href="https://carlosmperezm.github.io/weather-app/">
+                                <i class="material-symbols-outlined">
+                                    link
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>An app client that fetches data from an external API using Vanilla JS</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="img-container">
+                    <img src="./assets/projects/library.png" alt="">
+                </div>
+                <div class="description-container">
+                    <div class="title-container">
+                        <h4>Library</h4>
+                        <div class="links-container">
+                            <a href="https://github.com/carlosmperezm/library">
+                                <i class="devicon-github-original"></i>
+                            </a>
+                            <a href="https://carlosmperezm.github.io/library/">
+                                <i class="material-symbols-outlined">
+                                    link
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>Library Project where you can add books, mark them as read and delete them. Project to practice
+                    </p>
+                </div>
+            </div>
 
-        <section id="experience-section" tabindex="-1">
-            <h2>Experience</h2>
-            <p class="experience-header">Cienfuegos University
-                (<i>Internship</i>) - Cienfuegos</p>
-            <ul>
-                <li>
-                    <p><span class="bold">Automated</span> a manual data entry projects under senior
-                        developers' supervision.</p>
-                </li>
-                <li>
-                    <p><span class="bold">Developed</span> and implemented websites using JavaScript, HTML, and
-                        CSS, <span class="bold">contributing</span> to the resolution of technical
-                        challenges.</p>
-                </li>
-            </ul>
-        </section>
+
+        </div>
     </main>
-
-    <footer role="contentinfo" id="contact">
-        <p>Now, you already now a bit about me.</p>
-        <p>What about you? Is something interesting to share?</p>
-        <p>Hit me up!</p>
-
-        <ul class="contact-links">
-            <li>
-                <a aria-label="Carlos Github profile" href="https://github.com/carlosmperezm" target="_blank">
-                    <img alt="github" src="assets/icons/github(black).svg" />
+    <footer>
+        <div class="text-container">
+            <h3>Contact me</h3>
+            <p>Get in touch if you think our work could be mutually beneficial!</p>
+            <div class="Address">
+                <p class="city">Los Angeles, California</p>
+            </div>
+            <p class="phone-number">
+                <span class="material-symbols-outlined">
+                    call
+                </span>
+                (562) 250-4046‬
+            </p>
+            <p class="email">
+                <span class="material-symbols-outlined">
+                    mail
+                </span>
+                carlosperezmartinez2901@gmail.com
+            </p>
+            <div class="links-container">
+                <a href="https://github.com/carlosmperezm">
+                    <i class="devicon-github-original"></i>
                 </a>
-            </li>
-            <li>
-                <a aria-label="Carlos Linkedin profile" href="https://linkedin.com/in/carlos-backdev" target="_blank">
-                    <img src="assets/icons/linkedin.svg" alt="Linkedin" />
+                <a href="www.linkedin.com/in/cperezma">
+                    <i class="devicon-linkedin-plain"></i>
                 </a>
-            </li>
-            <li>
-                <a aria-label="Carlos email" href="mailto:carlosperezmartinez2901@gmail.com" target="_blank">
-                    <img src="assets/icons/mail.svg" alt="Mail">
-                </a>
-            </li>
-        </ul>
-        <p class="copyright">©
-            <span id="year"></span>
-            Carlos Perez Martinez
-        </p>
+            </div>
+        </div>
+        <div class="img-container">
+            <picture>
+                <source srcset="./assets/profile.svg" media="(width > 1200px)">
+                <img src="./assets/profile.svg" alt="">
+            </picture>
+        </div>
     </footer>
-    <script>
-        document.querySelector("#year").textContent = new Date().getFullYear()
-    </script>
 </body>
+
 
 </html>
