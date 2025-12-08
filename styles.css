@@ -71,6 +71,10 @@ header .about-me figure {
     background-color: #DBE2EF;
 }
 
+header .about-me figure img {
+    transform: translateY(-20px);
+}
+
 header .about-me figure figcaption {
     font-size: 1.5rem;
     position: absolute;
@@ -204,9 +208,13 @@ footer .img-container {
         transform-origin: bottom right;
     }
 
+    header .about-me figure img {
+        transform: initial;
+    }
+
     header .about-me figure figcaption {
         top: 0;
-        transform: translateX(100%);
+        transform: translate(100%, 8px);
     }
 
     header .about-me .text-container .links-container {
@@ -242,10 +250,14 @@ footer .img-container {
         transform: none;
     }
 
+    header .about-me figure img {
+        transform: translateY(-20px);
+    }
+
     header .about-me figure figcaption {
         top: auto;
         bottom: 0;
-        transform: translate(30%, 0px);
+        transform: translate(20%, 0px);
     }
 
     header .about-me .text-container {
@@ -276,7 +288,7 @@ footer .img-container {
 
     footer {
         flex-direction: column;
-        padding: 0;
+        padding: 1rem;
     }
 
     footer .text-container .links-container,
@@ -289,7 +301,7 @@ footer .img-container {
     }
 
     footer .img-container {
-        width: 100%;
+        width: 80%;
         place-self: center;
     }
 
